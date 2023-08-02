@@ -58,12 +58,46 @@
 
 								<!-- Highlight -->
 									<section class="box highlight">
-										<ul class="special">
-											<li><a href="membership.html" class="fas fa-clipboard-list"></a></li>
-											<li><a href="lablife.html" class="fas fa-smile-beam" style="text-decoration: none;"></a></li>
-											<li><a href="procedures.html" class="icon solid fa-flask"><span class="label">Flask</span></a></li>
-											<li><a href="#" class="fas fa-address-book"></a></li>
-										</ul>
+										<style>
+											/* Styling for the tooltip text */
+											.tooltip-text {
+											  display: none;
+											  position: absolute;
+											  top: 100%;
+											  left: 50%;
+											  transform: translateX(-50%);
+											  background-color: rgba(0, 0, 0, 0.7);
+											  color: white;
+											  padding: 4px 8px;
+											  border-radius: 4px;
+											}
+										  
+											/* Show the tooltip text when hovering over the icons */
+											.special li:hover .tooltip-text {
+											  display: block;
+											}
+										  </style>
+										  
+										  <ul class="special">
+											<li>
+											  <a href="membership.html" class="fas fa-clipboard-list"></a>
+											  <span class="tooltip-text">Membership and Expectations</span>
+											</li>
+											<li>
+											  <a href="lablife.html" class="fas fa-smile-beam" style="text-decoration: none;"></a>
+											  <span class="tooltip-text">Lab Life</span>
+											</li>
+											<li>
+											  <a href="procedures.html" class="icon solid fa-flask">
+												<span class="label">Flask</span>
+												<span class="tooltip-text">Research Procedures</span>
+											  </a>
+											</li>
+											<li>
+											  <a href="#" class="fas fa-address-book"></a>
+											  <span class="tooltip-text">Contact</span>
+											</li>
+										  </ul>
 										<header>
 											<h2>About BAGL</h2>
 											<p>Lab Mission</p>
@@ -208,12 +242,6 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<div class="container">
-						<div class="row gtr-200">
-							<div class="col-12">
-
-							</div>
-							<div class="col-12">
-
 								<!-- Contact -->
 									<section>
 										<h2 class="major"><span>Get in touch</span></h2>
@@ -224,22 +252,18 @@
 											<li><a class="fas fa-envelope" href="mailto:bagordon@wustl.edu" style="text-decoration: none;"></a></li>
 											<li><a class="icon brands fa-dribbble" href="https://www.mir.wustl.edu/research/research-centers/neuroimaging-labs-research-center-nil-rc/labs/bgordon-lab/"><span class="label">Dribbble</span></a></li>
 										</ul>
+										<div id="copyright">
+											<ul class="menu">
+												<li>&copy; 2023 Brian A. Gordon Lab Website. All rights reserved</li><li>Design by: <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a></li>
+											</ul>
+										</div>
 									</section>
-
-							</div>
+								</div>
 						</div>
+				</div>
+			</footer>
 
-						<!-- Copyright -->
-							<div id="copyright">
-								<ul class="menu">
-									<li>&copy; 2023 Brian A. Gordon Lab Website. All rights reserved</li><li>Design by: <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a></li>
-								</ul>
-							</div>
-
-					</div>
-				</footer>
-
-		</div>
+	</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>

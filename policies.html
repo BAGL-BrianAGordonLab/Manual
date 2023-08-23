@@ -109,8 +109,9 @@
 														<article class="box post-summary">
 															<h3><a href="#">Computer Support Group</a></h3>
 															<a href="mailto:swiese@wustl.edu">Steve Wiese</a><br>
-															<a href="mailto:nil-systems@npg.wustl.edu">NIL-Systems</a><br><br>
-															
+															<a href="mailto:nil-systems@npg.wustl.edu">NIL-Systems</a><br>
+															<a href="https://wustl.app.box.com/file/344563488246?s=40a2izqqqdues45178hb1ja1h2474b1a">Lab Software Tools</a><br><br>
+
 															<h6><a href="https://informationsecurity.wustl.edu/">Office of Information Security</a></h6>
 															<a href="mailto:infosec@wustl.edu">infosec@wustl.edu</a><br>
 															314-747-2955 <br>
@@ -133,9 +134,6 @@
 															<h6><a href="#">High-Performance Computing Systems</a></h6>
 															<a href="https://ris.wustl.edu/" target="_blank">RIS</a><br>
 															<a href="https://sites.wustl.edu/chpc/" target="_blank">CHPC</a>
-
-
-
 														</article>
 													</li>					
 													<li>
@@ -196,7 +194,12 @@
 
 											<section>
 												<h3>Orientation Period</h3>
-												<h3>Employee Transfer Policy and Procedure</h3>
+												<p>The initial six (6) months in a new role, or three (3) months for registered university apprenticeships, constitute an orientation period. 
+													Its purpose is to familiarize employees with their positions and work environment, while assessing their capabilities. 
+													New staff accrue vacation time during orientation but can't use it, and leaving during this period doesn't permit accrued vacation payout. 
+													Sick time can be accessed by new staff and transferred employees with over 6 months of prior service.<br>
+												</p>
+
 												<h3>Leave Policies and Procedures</h3>
 												<p> Our <a href="https://hr.wustl.edu/items/type/time-off/" target="_blank">leave policies</a> provide guidelines for various types of leave, including personal, medical, and family-related reasons. 
                                                     Eligible employees can request leave through a formal process, which involves notifying your supervisor and HR via WorkDay. 
@@ -225,7 +228,7 @@
 													We prioritize the protection of your data when sharing files within and outside our lab. 
 													By utilizing secure platforms and encryption methods, we ensure that sensitive information remains confidential and safeguarded throughout the sharing process.
 													Microsoft Outlook, Microsoft Teams, Microsoft Yammer, and Box are the only approved communications software for sensitive data. 
-													Under <b>NO</b> circumstances can anything data or patient related be communicated via Meta, Twitter, Messenger, Instagram, Snapchat, or TikTok. <br><br>
+													Under <b>NO</b> circumstances can anything data or patient related be communicated via Meta, Twitter, Messenger, Instagram, Snapchat, or TikTok. 
                                                 </p>
 	
 												<h3>Intellectual Property and Authorship Guidelines</h3>
@@ -250,19 +253,24 @@
 													There are two main high performance systems: Research Infrastructure Services "<a href="https://ris.wustl.edu/" target="_blank">RIS</a>" (not frequently used by our lab) and the Center for High-Performance Computing "<a href="https://sites.wustl.edu/chpc/" target="_blank">CHPC</a>" cluster. 
 													You may frequently hear the CHPC referred to as the "HPC" (high-performance computing system), "the cluster", or "the supercomputer".<br><br>
 													
+													<em><h6>Lab Linux Machines</h6></em>
+													The Neuroimaging Laboratories have a set of Linux machines that you can use to run command-line-based programs. <br><br>
+													Here is a list of the ones primarily used by the Benzinger lab:<br>
+														• boulanger: boulanger.neuroimage.wustl.edu (newest)<br>
+														• derbyshire: derbyshire.neuroimage.wustl.edu (new)<br>
+														• debussy: debussy.neuroimage.wustl.edu (older)<br>
+														• mahler: mahler.neuroimage.wustl.edu (oldest)<br>
+														• linux5 (ancient but frequently used by other groups so please don’t tie it up with many
+														processes): linux5.neuroimage.wustl.edu<br><br>
 													
-													
-													
-													
-													
-													Central Data Processing servers<br>
-													Email and Calendar servers<br>
-													BlueArc Storage System<br>
-													Take Backup System<br>
-													****** Currently under construction.<br>
+													You can access these machines from your Mac via the terminal, or using MobaXTerm on Windows.
+													In the terminal or MobaXTerm, enter the following: <b>ssh –Y YOUR_USERNAME@boulanger.neuroimage.wustl.edu</b><br><br>
+									
 
-													<em>Accessing the Servers</em><br>
-													There are three servers (Debussy, Derbyshire, and Mahler)
+													<em><h6>BlueArc Storage System</h6></em>
+													The "bluearc" system is a filesystem where the Benzinger lab has a shared folder (benzinger3). 
+													There is an older folder called benzinger2 that is running out of space, so we try to avoid using it for new data. 
+													To access this folder from any lab linux machines, change the directory to the following: <b>cd /data/nil-bluearc/benzinger3/YOUR_FOLDER_NAME</b>.
 												</p>
 
 												<h3>Employee Services</h3>
@@ -297,25 +305,25 @@
 														
 														<h7><em>Wellness Programs</em></h7><br>
 														Washington University provides various resources relating to health and wellness, linking faculty and staff to information on educational programs related to firness, nutrition, and various other health related topics. 
-														For more information, visit the <a href="https://hr.wustl.edu/well-being/" target="_blank">Wellness Connection</a> or <a href="https://wellnessinfo.wustl.edu/wellness-and-healthy-living/" target="_blank">Healthy Living</a> websites.<br><br>
+														For more information, visit the <a href="https://hr.wustl.edu/well-being/" target="_blank">Wellness Connection</a> or <a href="https://wellnessinfo.wustl.edu/wellness-and-healthy-living/" target="_blank">Healthy Living</a> websites.<br>
 												</p>
 
 												<h3>Wage and Salary</h3>
 												<p>
 													<h6><em>Definitions of Employment Status</em></h6>
-														<h7><em>Exempt</em></h7>: Positions that meet specific tests established by the Fair Labor Standards Act (FLSA) and applicable state law; incumbents are not legally entitled to overtime pay requirements.<br>
+														<h7><u><em>Exempt</em></u></h7>: Positions that meet specific tests established by the Fair Labor Standards Act (FLSA) and applicable state law; incumbents are not legally entitled to overtime pay requirements.<br>
 
-														<h7><em>Nonexempt</em></h7>: Positions that do not meet FLSA and state exemption tests. Employees are paid overtime for hours worked in excess of 40 per week.<br>
+														<h7><u><em>Nonexempt</em></u></h7>: Positions that do not meet FLSA and state exemption tests. Employees are paid overtime for hours worked in excess of 40 per week.<br>
 
-														<h7><em>Regular Full-Time</em></h7>: Employees scheduled to work 37.5 hours or more per week.<br>
+														<h7><u><em>Regular Full-Time</em></u></h7>: Employees scheduled to work 37.5 hours or more per week.<br>
 
-														<h7><em>Regular Part-Time</em></h7>: Employees who are scheduled to work less than 37.5 hours per week but at least 20 hours per week.<br>
+														<h7><u><em>Regular Part-Time</em></u></h7>: Employees who are scheduled to work less than 37.5 hours per week but at least 20 hours per week.<br>
 
-														<h7><em>Part-Time</em></h7>: Employees who are scheduled to work less than 20 hours per week.<br>
+														<h7><u><em>Part-Time</em></u></h7>: Employees who are scheduled to work less than 20 hours per week.<br>
 
-														<h7><em>0-Hour</em></h7>: Employees who work as needed and have no regularly scheduled hours.<br>
+														<h7><u><em>0-Hour</em></u></h7>: Employees who work as needed and have no regularly scheduled hours.<br>
 
-														<h7><em>Temporary</em></h7>: Employees who are hired for a pre-established period of time not to exceed six (6) months, usually during peak workloads or for vacation relief. 
+														<h7><u><em>Temporary</em></u></h7>: Employees who are hired for a pre-established period of time not to exceed six (6) months, usually during peak workloads or for vacation relief. 
 														They may work a full-time or part-time schedule and
 														are ineligible for University benefits.<br><br>	
 													
@@ -348,16 +356,16 @@
 													This situation may also raise doubts about the nature of the relationship's consent. 
 													To address these concerns, the University mandates that partners in such relationships where one partner currently holds a position of authority must promptly report it to their supervisor, department chair, or dean. 
 													Arrangements will then be made to either eliminate the authority or mitigate the associated risks. 
-													This policy covers situations where a partner's authority extends to matters such as employment, evaluation, recommendation, funding, and more, and applies even when a faculty member and graduate student share the same department or unit.<br><br>
+													This policy covers situations where a partner's authority extends to matters such as employment, evaluation, recommendation, funding, and more, and applies even when a faculty member and graduate student share the same department or unit.
 											
-													<em>Undergraduate Students</em><br>
+													<h6><em>Undergraduate Students</em></h6>
 													The University prohibits consensual relationships between undergraduate students and faculty members, and between undergraduate students and employees in administrative or staff roles having broad authority over undergraduate students 
 													(e.g., deans and other senior administrators, coaches, academic advisors), regardless of whether the faculty or employee holds a specific position of academic or professional authority with respect to the student.<br><br>
 
-													<em>Noncompliance with Policy</em><br>
+													<h6><em>Noncompliance with Policy</em></h6>
 													Violation of this policy may result in a range of remedial and disciplinary actions, including but not limited to mandatory training or counseling, reprimand, probation, suspension, loss of privileges, demotion, expulsion, dismissal or termination.<br><br>
 
-													<em>Faculty Rights</em><br>
+													<h6><em>Faculty Rights</em></h6>
 													Nothing in this policy is intended to abridge the rights of faculty as outlined in the Washington University Policy on Academic Freedom, Responsibility, and Tenure.
 												</p>
 
